@@ -1,0 +1,17 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/aa8c2adc-beaf-4b6e-a5ab-e5da3c3c5d63/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/uxLabTIme",
+    "appService.deploySubpath": "",
+    "staticWebApps.appSubpath": "/",
+    "staticWebApps.apiSubpath": "api",
+    "staticWebApps.outputSubpath": "build",
+    "azureFunctions.deploySubpath": "api",
+    "azureFunctions.postDeployTask": "npm install",
+    "azureFunctions.projectLanguage": "JavaScript",
+    "azureFunctions.projectRuntime": "~3",
+    "debug.internalConsoleOptions": "neverOpen",
+    "azureFunctions.preDeployTask": "npm prune"
+}
